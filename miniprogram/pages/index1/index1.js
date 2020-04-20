@@ -1,4 +1,4 @@
-// pages/deployFunctions/deployFunctions.js
+// pages/index1/index1.js
 Page({
 
   /**

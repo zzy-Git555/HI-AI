@@ -1,0 +1,68 @@
+/* pages/index1/index1.wxss */
+
+.text {
+  margin: 76rpx 76rpx 0 76rpx;
+  width: 616rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(170, 170, 170, 1);
+  line-height: 40rpx;
+  text-align: center;
+}
+
+.imgCloud {
+  margin: 0 76rpx;
+  width: 600rpx;
+  height: 600rpx;
+  margin-top: 60rpx;
+}
+
+.imgCloudMinis {
+  display: flex;
+}
+
+.CloudMini1 {
+  margin: 60rpx 34rpx 200rpx 62rpx;
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.CloudMini2 {
+  margin: 116rpx 30rpx 254rpx 0rpx;
+  width: 160rpx;
+  height: 90rpx;
+}
+
+.CloudMini3 {
+  margin: 112rpx 0rpx 248rpx 62rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.button {
+  width: 100%;
+  height: 188rpx;
+  background: rgba(49, 114, 238, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.btnImg {
+  width: 54rpx;
+  height: 54rpx;
+  margin: 30rpx
+}
+
+.upload {
+  width: 42px;
+  height: 25px;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 25px;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,19 @@
+<!--pages/index1/index1.wxml-->
+<view class="text">上传带有人像的照片，智能裁剪可以防止人像被切 割，从而获得更好的缩略图体验
+</view>
+<image mode="aspectFit" src="/images/Cloud.png" class="imgCloud"></image>
+<view class="imgCloudMinis">
+  <view>
+    <image mode="aspectFit" src="/images/CloudMini3.png" class="CloudMini3"></image>
+  </view>
+  <view>
+    <image mode="aspectFit" src="/images/CloudMini1.png" class="CloudMini1"></image>
+  </view>
+  <view>
+    <image mode="aspectFit" src="/images/CloudMini2.png" class="CloudMini2"></image>
+  </view>
+</view>
+<view class="button">
+<image src="/images/cloud upload.png" class="btnImg"></image>
+<view class="upload">上传</view>
+</view>
