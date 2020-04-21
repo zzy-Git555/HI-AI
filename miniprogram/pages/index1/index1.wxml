@@ -1,7 +1,7 @@
 <!--pages/index1/index1.wxml-->
 <view class="text">上传带有人像的照片，智能裁剪可以防止人像被切 割，从而获得更好的缩略图体验
 </view>
-<image mode="aspectFit" src="/images/Cloud.png" class="imgCloud"></image>
+<image mode="aspectFit" src="{{photos}}" class="imgCloud"></image>
 <view class="imgCloudMinis">
   <view>
     <image mode="aspectFit" src="/images/CloudMini3.png" class="CloudMini3"></image>
@@ -13,7 +13,7 @@
     <image mode="aspectFit" src="/images/CloudMini2.png" class="CloudMini2"></image>
   </view>
 </view>
-<view class="button">
+<view class="button" bindtap="uploadimg">
 <image src="/images/cloud upload.png" class="btnImg"></image>
 <view class="upload">上传</view>
 </view>
